@@ -5,8 +5,9 @@ The second part is Reptile algorithm refer to orignal
 
 
 ## Class augmentation
-Class augmentation includes the training process of CGAN and the generating process of CXR pseudo-classe.
-
+Class augmentation includes the training process of CGAN and the generating process of CXR pseudo-classe.  
+CGAN_train.ipynb performs the 5 class Conditional GAN training and saves the model every 50 epochs.  
+generate_pseudo-class.ipynb loads the Conditional GAN models and generates pseudo-classes of CXR using multiple diseases as input. 
 
 
 Reptile includes the Reptile algorithm we used in the experiment.  
